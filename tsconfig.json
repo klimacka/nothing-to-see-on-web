@@ -1,0 +1,18 @@
+{
+  "include": [
+    "src/**/*.entry.ts"
+  ],
+
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["DOM", "ES6"],
+
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+
+    "noEmitOnError": false,
+    "pretty": true,
+
+    "noImplicitAny": true
+  }
+}
